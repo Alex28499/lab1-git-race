@@ -7,7 +7,7 @@ import retrofit2.http.Url
 
 interface DictionaryInterface {
 
-        @GET
-        fun searchTerm(@Url url : String): Call<ResponseBody>
+    @GET
+    fun searchTerm(@Url url: String): Call<ResponseBody>
 
 }
